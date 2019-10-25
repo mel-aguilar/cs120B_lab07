@@ -6,6 +6,7 @@
 
 #include <avr/sleep.h>
 #include "include/simavr/avr/avr_mcu_section.h"
+#include "io.h"
 AVR_MCU(F_CPU,"atmega1284");
 AVR_MCU_VCD_FILE("build/results/LCD_trace.vcd",1000);
 
