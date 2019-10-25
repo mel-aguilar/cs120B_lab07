@@ -10,6 +10,7 @@
 #include <avr/io.h>
 #ifdef _SIMULATE_
 #include "simAVRHeader.h"
+#include "io.c"
 #endif
 
 int main(void) {
